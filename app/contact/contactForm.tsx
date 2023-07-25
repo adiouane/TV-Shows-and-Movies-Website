@@ -32,7 +32,7 @@ export default function ContactForm() {
   const sendemail = (e:any) => {
     e.preventDefault();
     emailjs
-      .sendForm('service_7y7q335', 'template_epdz0jb', form.current, 'hkIjitlE9QsEw1Us5')
+      .sendForm('service_7y7q335', 'template_epdz0jb', form.current as any, 'hkIjitlE9QsEw1Us5')
       .then((result) => {
         console.log(result.text);
         istrue = true;
