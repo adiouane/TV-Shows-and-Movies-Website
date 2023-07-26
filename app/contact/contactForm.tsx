@@ -76,7 +76,7 @@ export default function ContactForm() {
           </label>
           <input
             type="email"
-            name="from_email"
+            name="user_email"
             id="from_email"
             className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           />
