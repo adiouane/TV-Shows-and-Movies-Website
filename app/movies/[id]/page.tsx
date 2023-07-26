@@ -69,6 +69,9 @@ export default async function Movies({ params }: { params: { id: string } }) {
           src={`https://image.tmdb.org/t/p/original${movies.backdrop_path}`}
           alt={movies.title}
           className="rounded-md transition duration-500 ease-in-out transform hover:scale-110 max-h-96"
+          style={{ touchAction: 'none' }}
+          width={1920}
+          height={1080}
         />
         <div className="max-w-3xl">
           <h1 className="text-white text-2xl font-bold">{movies.title}</h1>

@@ -23,12 +23,9 @@ export default function RootLayout({
       <body className={inter.className}>
       <NextTopLoader 
         color="#facc15"
-        size="10"
-        delay="0.3"
-        duration="0.3"
-        height={5}
-        width={5}
+
       />
+        
      <Navbar/>
       {children}
       <Footer />
