@@ -5,7 +5,7 @@ const nextConfig = {
     serverActions: true,
   },
   images: {
-    domains: ['wallpaperaccess.com', 'image.tmdb.org', 'img.icons8.com'],
+    domains: ['wallpaperaccess.com', 'image.tmdb.org', 'img.icons8.com', 'www.facebook.com'],
   },
 };
 

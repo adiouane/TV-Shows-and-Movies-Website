@@ -7,11 +7,11 @@ const Footer = () => {
         <footer className=" text-white w-full">
             {/* background img movies  and make bottuns toucheble*/}
             <div className="absolute  bg-gradient-to-r from-black to-transparent z-0"></div>
-            <Image src="https://wallpaperaccess.com/full/5957978.jpg" alt="background" className="absolute w-full h-60 object-cover opacity-60 z-0"
+            {/* <Image src="https://wallpaperaccess.com/full/5957978.jpg" alt="background" className="absolute w-full h-60 object-cover opacity-60 z-0"
               style={{ touchAction: 'none' }}
               width={1920}
               height={1080}
-            />
+            /> */}
             <div className="container mx-auto py-8 relative z-10">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
                     <div className="col-span-1 mx-10 ">

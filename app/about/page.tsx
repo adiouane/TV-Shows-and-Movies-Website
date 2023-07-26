@@ -3,11 +3,12 @@ import Image from 'next/image';
 export default function About() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <Image src="/images/westworld.gif" alt="background" className="absolute w-full h-full object-cover opacity-60 z-0" 
+      <img src='https://i.pinimg.com/originals/63/d3/4c/63d34c85462603dbd508b98e531e88e3.jpg' alt="background" className="absolute h-full w-full object-cover" />
+      {/* <Image src="/images/westworld.gif" alt="background" className="absolute w-full h-full object-cover opacity-60 z-0" 
         style={{ touchAction: 'none' }}
         width={1920}
         height={1080}
-      />
+      /> */}
       <div className="z-10 text-center">
         <p className="font-serif text-white mt-3 text-2xl max-w-3xl text-center mx-auto">
           Hi, I&rsquo;m <span className="text-orange-500 hover:text-green-600"> Amine Diouane </span>, a passionate developer who is excited about learning Next.js and exploring various technologies in this project. As a team of movie enthusiasts, we aim to share our love for movies with the world.

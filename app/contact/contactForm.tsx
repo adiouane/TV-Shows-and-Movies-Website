@@ -46,12 +46,14 @@ export default function ContactForm() {
   };
 
   return (
-    <>
-      <Image src="/images/westworld.gif/" alt="background" className="absolute h-full w-full object-cover opacity-20 z-0 pointer-events-none"
+    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <img src='https://th.bing.com/th/id/R.6f3ecdf04f6810549268fb9ce1ef987a?rik=pQq5sUI6hTlr9w&pid=ImgRaw&r=0'
+    className="absolute h-full w-full object-cover opacity-60 z-0  pointer-events-none" />
+      {/* <Image src="/images/westworld.gif/" alt="background" className="absolute h-full w-full object-cover opacity-20 z-0 pointer-events-none"
 
         width={1920}
         height={1080}
-      style={{ touchAction: 'none' }} />
+      style={{ touchAction: 'none' }} /> */}
       <form ref={form} 
       onSubmit={sendemail}
       className="max-w-lg w-full mx-auto mt-10 p-8 md:p-12 lg:p-16 rounded-lg shadow-xl z-10">
@@ -97,7 +99,7 @@ export default function ContactForm() {
           {istrue && <CustomAlert message="Your message has been sent successfully. We will contact you soon." />}
         </div>
       </form>
-    </>
+    </div>
   );
 };
 
