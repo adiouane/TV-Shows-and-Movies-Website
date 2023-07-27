@@ -5,7 +5,6 @@ export default function About() {
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <img src='https://i.pinimg.com/originals/63/d3/4c/63d34c85462603dbd508b98e531e88e3.jpg' alt="background" className="absolute h-full w-full object-cover" />
       {/* <Image src="/images/westworld.gif" alt="background" className="absolute w-full h-full object-cover opacity-60 z-0" 
-        style={{ touchAction: 'none' }}
         width={1920}
         height={1080}
       /> */}

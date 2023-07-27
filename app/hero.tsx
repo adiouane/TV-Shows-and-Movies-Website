@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
     <div className="text-white min-h-screen flex items-center justify-center">
       <img src="https://th.bing.com/th/id/R.60dbf90ac981dfc91bc962087c980338?rik=6PIwUjs0Jv0Hcw&riu=http%3a%2f%2fimages2.fanpop.com%2fimages%2fphotos%2f8200000%2fBreaking-Bad-breaking-bad-8272743-1280-1024.jpg&ehk=%2bwswu0e6Gm9pz4Y3m5Zpq6D7oTUViQppSydFb0L7ImM%3d&risl=&pid=ImgRaw&r=0" alt="background" className="absolute h-full w-full object-cover" />
         {/* <Image src="https://wallpapercave.com/wp/fidX227.jpg" alt="background" className="absolute h-full w-full object-cover"
-          style={{ touchAction: 'none' }}
+          : 'none' }}
           width={1920}
           height={1080}
         /> */}

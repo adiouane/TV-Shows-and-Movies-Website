@@ -64,7 +64,6 @@ export default async function TvShow({ params }: { params: { id: string } }) {
           src={`https://image.tmdb.org/t/p/original${TvShow.backdrop_path}`}
           alt={TvShow.title}
           className="rounded-md transition duration-500 ease-in-out transform hover:scale-110 max-h-96"
-          style={{ touchAction: 'none' }}
           width={1920}
           height={1080}
         />

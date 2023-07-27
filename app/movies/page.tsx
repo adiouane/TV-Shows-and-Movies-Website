@@ -36,7 +36,6 @@ export default async function TopMovies() {
                 src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
                 alt={movie.title}
                 className="rounded-md transition duration-500 ease-in-out transform hover:scale-110"
-                style={{ touchAction: 'none' }}
                 width={1920}
                 height={1080}
               />

@@ -9,7 +9,6 @@
     "lint": "next lint",
     "devlop": "nodemon --exec \"next dev\"",
     "postinstall": "prisma generate"
-
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",

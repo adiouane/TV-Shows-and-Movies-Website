@@ -53,7 +53,7 @@ export default function ContactForm() {
 
         width={1920}
         height={1080}
-      style={{ touchAction: 'none' }} /> */}
+      */}
       <form ref={form} 
       onSubmit={sendemail}
       className="max-w-lg w-full mx-auto mt-10 p-8 md:p-12 lg:p-16 rounded-lg shadow-xl z-10">

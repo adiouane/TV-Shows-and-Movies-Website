@@ -35,7 +35,6 @@ export default async function TopTvshow() {
                 src={`https://image.tmdb.org/t/p/w500${Tv.poster_path}`}
                 alt={Tv.title}
                 className="rounded-md transition duration-500 ease-in-out transform hover:scale-110"
-                style={{ touchAction: 'none' }}
                 width={1920}
                 height={1080}
               />
