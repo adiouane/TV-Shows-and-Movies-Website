@@ -20,7 +20,7 @@ A web application built with Next.js, TypeScript, and Tailwind CSS that allows u
 
 ## Demo:
 
-You can view a live demo of the project https://tv-shows-and-movies-website-c1kcg6hnw-adiouane.vercel.app/
+You can view a live demo of the project https://tv-shows-and-movies-website.vercel.app/
 ![website-picture](https://github.com/adiouane/TV-Shows-and-Movies-Website/assets/94860452/8b12c86c-ac20-49dc-a14c-9467fb59ef5a)
 
 
